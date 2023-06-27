@@ -232,7 +232,7 @@ def app():
 
         st.subheader('Recommendations')
         for i, answer in answers.items():
-            st.write(f"Question {i+1}: {answer['recomendation']}")
+            st.markdown(f"Question {i+1}: {answer['recomendation']}")
 
 # Run the app
 if __name__ == '__main__':
