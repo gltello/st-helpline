@@ -14,12 +14,12 @@ questions = [
             'Answer 5': 5
         },
         'recomendations': {
-            0: "IT Infrastructure: /n/nDevelop a detailed risk management plan that includes risk identification, assessment, response planning, and monitoring.<br>Estimated time: 1 week",
-            1: "IT Infrastructure: /n/nBased on the audit results, upgrade the IT infrastructure as necessary. This could involve increasing server capacity, updating software, etc.<br>Estimated time: 2 weeks",
-            2: "IT Infrastructure: /n/nConduct a thorough audit of the existing IT infrastructure to ensure it can support the new digital channel launch. This step is crucial in mitigating the risk early on.<br>Estimated time: 1 week",
-            3: "IT Infrastructure: /n/nProvide technical training to the team involved in managing the digital channel. They should be able to operate, maintain, and troubleshoot the new channel.<br>Estimated time: 2 weeks",
-            4: "IT Infrastructure: /n/nDespite all efforts, there may still be unforeseen problems. Having a robust contingency plan can help manage these effectively.<br>Estimated time: 1 week",
-            5: "IT Infrastructure: /n/nImplement a structured User Acceptance Testing phase where a select group of end-users try out the new digital channel before it's fully launched. Their feedback can be used to make final adjustments, ensuring the channel meets user expectations and requirements.<br>Estimated time: 2 weeks"
+            0: "**IT Infrastructure:** <br>Develop a detailed risk management plan that includes risk identification, assessment, response planning, and monitoring.<br>Estimated time: 1 week",
+            1: "**IT Infrastructure:** <br>Based on the audit results, upgrade the IT infrastructure as necessary. This could involve increasing server capacity, updating software, etc.<br>Estimated time: 2 weeks",
+            2: "**IT Infrastructure:** <br>Conduct a thorough audit of the existing IT infrastructure to ensure it can support the new digital channel launch. This step is crucial in mitigating the risk early on.<br>Estimated time: 1 week",
+            3: "**IT Infrastructure:** <br>Provide technical training to the team involved in managing the digital channel. They should be able to operate, maintain, and troubleshoot the new channel.<br>Estimated time: 2 weeks",
+            4: "**IT Infrastructure:** <br>Despite all efforts, there may still be unforeseen problems. Having a robust contingency plan can help manage these effectively.<br>Estimated time: 1 week",
+            5: "**IT Infrastructure:** <br>Implement a structured User Acceptance Testing phase where a select group of end-users try out the new digital channel before it's fully launched. Their feedback can be used to make final adjustments, ensuring the channel meets user expectations and requirements.<br>Estimated time: 2 weeks"
         }
     },
     {
@@ -232,7 +232,7 @@ def app():
 
         st.subheader('Recommendations')
         for i, answer in answers.items():
-            st.markdown(f"Question {i+1}: {answer['recomendation']}", unsafe_allow_html=True)
+            st.markdown(f"{answer['recomendation']}", unsafe_allow_html=True)
 
 # Run the app
 if __name__ == '__main__':
