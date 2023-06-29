@@ -1062,8 +1062,7 @@ def home_page():
             <img src="https://kidshelpline.com.au/sites/default/files/bdl_image/KHL_Logotype_Older_Primary_Lozenge_Central.png" alt="Image">
         </div>
         """,
-        unsafe_allow_html=True
-        )
+        unsafe_allow_html=True)
 
 def show_africa_page():
     st.title('Africa Page')
