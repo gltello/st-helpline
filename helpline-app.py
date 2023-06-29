@@ -1070,8 +1070,8 @@ def show_africa_page():
         plot_data = np.append(plot_data, plot_data[:1])  # Repeat the first data point to close the plot
 
         fig, ax = plt.subplots(figsize=(6, 6), subplot_kw={'polar': True})
-        ax.plot(angles, plot_data, color='green', linewidth=1)
-        ax.fill(angles, plot_data, color='green', alpha=0.25)
+        ax.plot(angles, plot_data, color='red', linewidth=1)
+        ax.fill(angles, plot_data, color='red', alpha=0.25)
 
         ax.set_xticks(angles[:-1])
         ax.set_xticklabels([question['topic'] for question in questions], fontsize=6)
@@ -1117,8 +1117,8 @@ def show_asia_page():
         plot_data = np.append(plot_data, plot_data[:1])  # Repeat the first data point to close the plot
 
         fig, ax = plt.subplots(figsize=(6, 6), subplot_kw={'polar': True})
-        ax.plot(angles, plot_data, color='green', linewidth=1)
-        ax.fill(angles, plot_data, color='green', alpha=0.25)
+        ax.plot(angles, plot_data, color='red', linewidth=1)
+        ax.fill(angles, plot_data, color='red', alpha=0.25)
 
         ax.set_xticks(angles[:-1])
         ax.set_xticklabels([question['topic'] for question in questions], fontsize=6)
@@ -1164,8 +1164,8 @@ def show_europe_page():
         plot_data = np.append(plot_data, plot_data[:1])  # Repeat the first data point to close the plot
 
         fig, ax = plt.subplots(figsize=(6, 6), subplot_kw={'polar': True})
-        ax.plot(angles, plot_data, color='green', linewidth=1)
-        ax.fill(angles, plot_data, color='green', alpha=0.25)
+        ax.plot(angles, plot_data, color='red', linewidth=1)
+        ax.fill(angles, plot_data, color='red', alpha=0.25)
 
         ax.set_xticks(angles[:-1])
         ax.set_xticklabels([question['topic'] for question in questions], fontsize=6)
@@ -1212,8 +1212,8 @@ def show_north_america_page():
         plot_data = np.append(plot_data, plot_data[:1])  # Repeat the first data point to close the plot
 
         fig, ax = plt.subplots(figsize=(6, 6), subplot_kw={'polar': True})
-        ax.plot(angles, plot_data, color='green', linewidth=1)
-        ax.fill(angles, plot_data, color='green', alpha=0.25)
+        ax.plot(angles, plot_data, color='red', linewidth=1)
+        ax.fill(angles, plot_data, color='red', alpha=0.25)
 
         ax.set_xticks(angles[:-1])
         ax.set_xticklabels([question['topic'] for question in questions], fontsize=6)
@@ -1260,8 +1260,8 @@ def show_south_america_page():
         plot_data = np.append(plot_data, plot_data[:1])  # Repeat the first data point to close the plot
 
         fig, ax = plt.subplots(figsize=(6, 6), subplot_kw={'polar': True})
-        ax.plot(angles, plot_data, color='green', linewidth=1)
-        ax.fill(angles, plot_data, color='green', alpha=0.25)
+        ax.plot(angles, plot_data, color='red', linewidth=1)
+        ax.fill(angles, plot_data, color='red', alpha=0.25)
 
         ax.set_xticks(angles[:-1])
         ax.set_xticklabels([question['topic'] for question in questions], fontsize=6)
@@ -1308,8 +1308,8 @@ def show_australia_page():
         plot_data = np.append(plot_data, plot_data[:1])  # Repeat the first data point to close the plot
 
         fig, ax = plt.subplots(figsize=(6, 6), subplot_kw={'polar': True})
-        ax.plot(angles, plot_data, color='green', linewidth=1)
-        ax.fill(angles, plot_data, color='green', alpha=0.25)
+        ax.plot(angles, plot_data, color='red', linewidth=1)
+        ax.fill(angles, plot_data, color='red', alpha=0.25)
 
         ax.set_xticks(angles[:-1])
         ax.set_xticklabels([question['topic'] for question in questions], fontsize=6)
