@@ -1041,6 +1041,7 @@ def home_page():
 def show_africa_page():
     st.title('Africa Page')
     st.markdown("Recomendations will be tailored to Africa's Reality")
+    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
 
     # Display questions and collect answers
     answers = {}
@@ -1086,6 +1087,7 @@ def show_africa_page():
 def show_asia_page():
     st.title("Asia Page")
     st.markdown("Recomendations will be tailored to Asia's Reality")
+    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
     # Add content specific to Asia
     
     # Display questions and collect answers
@@ -1132,6 +1134,7 @@ def show_asia_page():
 def show_europe_page():
     st.title("Europe Page")
     st.markdown("Recomendations will be tailored to Europe's Reality")
+    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
     # Add content specific to Europe
     
     # Display questions and collect answers
@@ -1179,6 +1182,7 @@ def show_europe_page():
 def show_north_america_page():
     st.title("North America Page")
     st.markdown("Recomendations will be tailored to North America's Reality")
+    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
     # Add content specific to North America
     
     # Display questions and collect answers
@@ -1226,6 +1230,7 @@ def show_north_america_page():
 def show_south_america_page():
     st.title("South America Page")
     st.markdown("Recomendations will be tailored to South America's Reality")
+    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
     # Add content specific to South America
     
     # Display questions and collect answers
@@ -1273,6 +1278,7 @@ def show_south_america_page():
 def show_australia_page():
     st.title("Australia Page")
     st.markdown("Recomendations will be tailored to Australia's Reality")
+    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
     # Add content specific to Australia
     
     # Display questions and collect answers
