@@ -1399,6 +1399,7 @@ def additional_resources():
 if __name__ == '__main__':
     # Display page selection
     # Create the index
+    st.set_page_config(initial_sidebar_state="collapsed")
     st.sidebar.title("Index")
     selection = st.sidebar.radio("Select a page", ["Home Page", "Africa", "Asia", "Europe", "North America", "South America", "Australia", "Additional Resources"])
 
