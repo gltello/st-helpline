@@ -1029,7 +1029,7 @@ background_image_url = 'https://example.com/background_image.jpg'
 # Streamlit app layout
 def home_page():
     
-    st.title('Helpline Evaluation Test')
+    st.title('KidConnect Evaluation Test')
     st.markdown('#### The following test aims to evaluate how well your helpline is performing. Please follow these steps to complete the assesment')
     st.markdown('STEP 1: From the sidebar, choose your region so that the recomendations given are tailored to your location.')
     st.markdown('STEP 2: There are 10 questions to be answered from different areas of interest, each question has 6 possible answers, each response is numbered from 0 to 5, being 0 the area that needs the most improvement and 5 the least.')
