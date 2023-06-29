@@ -1063,7 +1063,7 @@ def home_page():
         </div>
         """,
         unsafe_allow_html=True
-    )
+        )
 
 def show_africa_page():
     st.title('Africa Page')
