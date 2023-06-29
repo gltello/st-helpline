@@ -1037,6 +1037,33 @@ def home_page():
     st.markdown('STEP 4: Below the score you will find tailored recomendations for each of the 10 areas of interest of the answered questions, read them to get insights.')
     st.markdown('STEP 5: From the sidebar, visit the additional resources page to find further help on the topics from this website')
     st.markdown('##### Good Luck!')
+    
+    st.markdown(
+    """
+    <style>
+    .image-container {
+        display: flex;
+        align-items: flex-start;
+        height: 20vh;
+    }
+    
+    .image-container img {
+        max-height: 100%;
+        width: auto;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
+
+    st.markdown(
+        """
+        <div class="image-container">
+            <img src="https://kidshelpline.com.au/sites/default/files/bdl_image/KHL_Logotype_Older_Primary_Lozenge_Central.png" alt="Image">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 def show_africa_page():
     st.title('Africa Page')
