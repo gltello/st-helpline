@@ -1032,7 +1032,7 @@ def home_page():
     st.title('Helpline Evaluation Test')
     st.markdown('#### The following test aims to evaluate how well your helpline is performing. Please follow these steps to complete the assesment')
     st.markdown('STEP 1: From the sidebar, choose your region so that the recomendations given are tailored to your location.')
-    st.markdown('STEP 2: There are 10 questions to be answered from different areas of interest, each question has 6 possible answers, each response is numbered from 0 to 5, being 0 the area that needs the least improvement and 5 the most.')
+    st.markdown('STEP 2: There are 10 questions to be answered from different areas of interest, each question has 6 possible answers, each response is numbered from 0 to 5, being 0 the area that needs the most improvement and 5 the least.')
     st.markdown('STEP 3: Hit the submit button, you will get a level of improvement score from 0 to 10, being 0 the least improvement needed and 10 the most.')
     st.markdown('STEP 4: Below the score you will find tailored recomendations for each of the 10 areas of interest of the answered questions, read them to get insights.')
     st.markdown('STEP 5: From the sidebar, visit the additional resources page to find further help on the topics from this website')
@@ -1041,7 +1041,7 @@ def home_page():
 def show_africa_page():
     st.title('Africa Page')
     st.markdown("Recomendations will be tailored to Africa's Reality")
-    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
+    st.markdown("**Remember**: 0 is the area that needs the most improvement and 5 is the area that needs the least")
 
     # Display questions and collect answers
     answers = {}
@@ -1060,7 +1060,7 @@ def show_africa_page():
     # Display final score and recommendations on submit
     if st.button('Submit'):
         st.subheader('Quiz Result')
-        st.markdown(f'### Overall score: **{score}**')
+        st.markdown(f'### Level of Improvement Needed: **{score}**')
         
         # Create star plot
         plot_data = np.array([(x['answer']-5)*-2 for x in answers.values()])
@@ -1087,7 +1087,7 @@ def show_africa_page():
 def show_asia_page():
     st.title("Asia Page")
     st.markdown("Recomendations will be tailored to Asia's Reality")
-    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
+    st.markdown("**Remember**: 0 is the area that needs the most improvement and 5 is the area that needs the least")
     # Add content specific to Asia
     
     # Display questions and collect answers
@@ -1107,7 +1107,7 @@ def show_asia_page():
     # Display final score and recommendations on submit
     if st.button('Submit'):
         st.subheader('Quiz Result')
-        st.markdown(f'### Overall score: **{score}**')
+        st.markdown(f'### Level of Improvement Needed: **{score}**')
         
         # Create star plot
         plot_data = np.array([(x['answer']-5)*-2 for x in answers.values()])
@@ -1134,7 +1134,7 @@ def show_asia_page():
 def show_europe_page():
     st.title("Europe Page")
     st.markdown("Recomendations will be tailored to Europe's Reality")
-    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
+    st.markdown("**Remember**: 0 is the area that needs the most improvement and 5 is the area that needs the least")
     # Add content specific to Europe
     
     # Display questions and collect answers
@@ -1154,7 +1154,7 @@ def show_europe_page():
     # Display final score and recommendations on submit
     if st.button('Submit'):
         st.subheader('Quiz Result')
-        st.markdown(f'### Overall score: **{score}**')
+        st.markdown(f'### Level of Improvement Needed: **{score}**')
         
         # Create star plot
         plot_data = np.array([(x['answer']-5)*-2 for x in answers.values()])
@@ -1182,7 +1182,7 @@ def show_europe_page():
 def show_north_america_page():
     st.title("North America Page")
     st.markdown("Recomendations will be tailored to North America's Reality")
-    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
+    st.markdown("**Remember**: 0 is the area that needs the most improvement and 5 is the area that needs the least")
     # Add content specific to North America
     
     # Display questions and collect answers
@@ -1202,7 +1202,7 @@ def show_north_america_page():
     # Display final score and recommendations on submit
     if st.button('Submit'):
         st.subheader('Quiz Result')
-        st.markdown(f'### Overall score: **{score}**')
+        st.markdown(f'### Level of Improvement Needed: **{score}**')
         
         # Create star plot
         plot_data = np.array([(x['answer']-5)*-2 for x in answers.values()])
@@ -1230,7 +1230,7 @@ def show_north_america_page():
 def show_south_america_page():
     st.title("South America Page")
     st.markdown("Recomendations will be tailored to South America's Reality")
-    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
+    st.markdown("**Remember**: 0 is the area that needs the most improvement and 5 is the area that needs the least")
     # Add content specific to South America
     
     # Display questions and collect answers
@@ -1250,7 +1250,7 @@ def show_south_america_page():
     # Display final score and recommendations on submit
     if st.button('Submit'):
         st.subheader('Quiz Result')
-        st.markdown(f'### Overall score: **{score}**')
+        st.markdown(f'### Level of Improvement Needed: **{score}**')
         
         # Create star plot
         plot_data = np.array([(x['answer']-5)*-2 for x in answers.values()])
@@ -1278,7 +1278,7 @@ def show_south_america_page():
 def show_australia_page():
     st.title("Australia Page")
     st.markdown("Recomendations will be tailored to Australia's Reality")
-    st.markdown("**Remember**: 0 is the area that needs the least improvement and 5 is the area that needs the most")
+    st.markdown("**Remember**: 0 is the area that needs the most improvement and 5 is the area that needs the least")
     # Add content specific to Australia
     
     # Display questions and collect answers
@@ -1298,7 +1298,7 @@ def show_australia_page():
     # Display final score and recommendations on submit
     if st.button('Submit'):
         st.subheader('Quiz Result')
-        st.markdown(f'### Overall score: **{score}**')
+        st.markdown(f'### Level of Improvement Needed: **{score}**')
         
         # Create star plot
         plot_data = np.array([(x['answer']-5)*-2 for x in answers.values()])
